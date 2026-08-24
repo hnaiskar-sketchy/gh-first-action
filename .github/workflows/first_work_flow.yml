@@ -10,8 +10,8 @@ jobs:
         run: echo "hi, this is my first github workflow"
       - name: checking OS release fro github tested runner
         run: cat /etc/os-release
-      - name: calling sleep   
-        sleep 20
+      - name: calling sleep
+        run: sleep 20
   job2:     
       name: job2
       runs-on: ubuntu-latest
